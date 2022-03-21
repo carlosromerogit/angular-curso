@@ -1,0 +1,12 @@
+<mat-card>
+    <mat-card-title>Contador</mat-card-title>
+    <mat-card-subtitle>Incrementar/Decrementar</mat-card-subtitle>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+        <button (click)="operation(-1)" mat-icon-button color="accent"><mat-icon>remove</mat-icon></button>
+           <span class="value-container">
+               {{valor}}
+           </span>
+        <button (click)="operation(1)" mat-icon-button color="accent"><mat-icon>add</mat-icon></button>
+    </mat-card-content>
+</mat-card>

@@ -1,0 +1,12 @@
+mat-card{
+    width: 250px;
+    margin: 1rem;
+}
+mat-card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.value-container{
+    padding: 0.5rem;
+}

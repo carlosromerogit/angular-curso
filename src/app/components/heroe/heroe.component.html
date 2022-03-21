@@ -1,0 +1,16 @@
+<mat-card>
+    <mat-card-title>Heroe</mat-card-title>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+        <dl>
+            <dt>Nombre: </dt>
+            <dd>{{heroe.nombre}}</dd>
+            <dt>Edad: </dt>
+            <dd>{{heroe.edad}}</dd>
+        </dl>
+    </mat-card-content>
+    <mat-card-actions>
+        <button (click)="cambiarNombre()" mat-button color="accent">Cambiar nombre</button>
+        <button (click)="cambiarEdad()" mat-button color="accent">Cambiar edad</button>
+    </mat-card-actions>
+</mat-card>
